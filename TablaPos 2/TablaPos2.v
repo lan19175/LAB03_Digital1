@@ -53,7 +53,7 @@ end
 
   initial
     begin
-      $dumpfile("top_tb.vcd"); // noten que el nombre del archivo siempre es el que incluye el _tb y la extension es .vcd
-      $dumpvars(0, gates); // noten que el nombre que está después del número 0 es el mismo que el nombre del módulo que estamos probando
+      $dumpfile("TablaPos2_tb.vcd"); 
+      $dumpvars(0, gates); 
     end
 endmodule	//finalizar el módulo
