@@ -55,4 +55,5 @@ end
     begin
       $dumpfile("TablaSop1_tb.vcd"); 
       $dumpvars(0, gates); 
+	  end
 endmodule	//finalizar el módulo
